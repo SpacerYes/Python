@@ -1,3 +1,6 @@
+from colorama import init
+init()
+
 x = """
   _________                          .__       .__    
  /   _____/ ____   ____   ___________|__|____  |  |   
@@ -9,6 +12,21 @@ x = """
 
 def head():
   print(x)
-
+  print(Fore.RED + '[1] Option one')
+  print(Fore.RED + '[2] Option two')
+  print(Fore.RED + '[3] Option three')
 
 head()
+
+def optionOne():
+  cls()
+
+def optionTwo():
+  cls()
+
+def optionThree():
+  cls()
+
+
+
+  
